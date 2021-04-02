@@ -1,0 +1,746 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header*/
+		.logo{
+	margin-right: 50px;
+}
+		.menu a{
+		float: right;
+		margin: 0;
+		font-size: 16px;
+		letter-spacing: 0;
+	}
+	.menu form{
+		width:30%;
+		float: right;
+	}
+	.search-icon{
+	right: 17px;
+	top: 225px;
+	font-size: 16px;
+
+}
+/*hiking*/
+.hiking{
+	width: 100%;
+	min-height: 400px;
+}
+.h-content h1{
+	margin-top: 50px;
+	font-size: 32px;
+}
+.h-content h3{
+	margin-bottom: 20px;
+	font-size: 18px;
+	letter-spacing: 0px;
+
+}
+.h-content button{
+	margin-bottom: 10px;
+	font-size: 16px;
+	padding: 2px 10px;
+}
+.h-content p{
+	 font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 18px;
+
+}
+/*lets go start*/
+.lets-go{
+	padding: 0px 0 50px;
+	
+}
+.c-h1{
+	font-size: 32px;
+	letter-spacing: 2px;
+	
+}
+.c-h4{
+	font-size: 18px;
+}
+.singel img{
+	width: 100%;
+	min-height: 150px;
+}
+.singel-con{
+	width: 95%;
+	padding: 25px 0;
+}
+.c-h2{
+	font-size: 22px;
+	letter-spacing: 0;
+}
+.c-p{
+	font-size: 16px;
+	line-height: 15px;
+	letter-spacing: 0;
+}
+.go-btn{
+	font-size: 16px;
+	letter-spacing: 2px;
+	width: 80%;
+	min-height: 50px;
+	margin-top: 30px;
+}
+/*discount start*/
+
+.discount img{
+	height: 400px;
+}
+
+.discount-con{
+	min-height: 400px;
+}
+.january-con{
+	min-height: 400px;
+}
+.all-exc{
+	width: 95%;
+	 padding: 60px 35px 0px;
+
+}
+.all-exc h1{
+	font-size: 25px;
+	
+}
+.all-exc p{
+	margin: 20px 0;
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 25px;
+}
+.btn-default{
+	width: 70%;
+	height: 45px;
+	font-size: 16px;
+}
+/*mountain start*/
+.mountain{
+	margin-top: 0px;
+	min-height: 300px;
+}
+.mountain h1{
+	margin-top: 80px;
+	font-size: 25px;
+}
+.mountain p{
+	font-size: 16px;
+	margin-top: 10px;
+	line-height: 20px;
+	letter-spacing: 0;
+}
+/*explore start*/
+.explore{
+	margin-top: 0px;
+	min-height: 250px;
+}
+.explore h1{
+	margin-top: 70px;
+	margin-left: 65px;
+	font-size: 40px;
+}
+.explore h2{
+	font-size: 43px;
+}
+/*lorem ipsum*/
+.lorem-ipsum{
+	margin-bottom: 40px;
+}
+.lorem-ipsum h1{
+	font-size: 20px;
+}
+.lorem-ipsum p{
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	
+}
+.lorem-bottom h3{
+	margin: 0;
+	font-size: 16px;
+	line-height: 20px;
+}
+.lorem-bottom h2{
+	font-size: 30px;
+}
+.lorem-bottom p{
+	margin-bottom: 30px;
+}
+  /*contact start*/
+.contact-text{
+	padding:70px 0px;
+}
+.form{
+	width: 90%;
+
+}
+.sub-custom{
+	margin-top: 10px;
+	right: 22px;
+	width: 85%;
+	padding: 12px 20px;
+}
+.contact-text h1{
+	font-size: 32px;
+}
+.contact-text p{
+	margin:20px 0;
+	font-size: 16px;
+	line-height: 20px;
+}
+footer h4{
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 30px;
+}
+.footer-i{
+	margin-left: 60px;
+    margin-bottom: 40px;
+}
+footer{
+	padding:50px 0 30px;
+}
+footer p{
+	text-align: center;
+}
+  }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header*/
+	.logo{
+	margin-right: 0;
+}
+		.menu a{
+		float: right;
+		margin: 0;
+		font-size: 16px;
+		letter-spacing: 0;
+	}
+	.menu form{
+		width:30%;
+		float: right;
+	}
+	.search-icon{
+	right: 17px;
+	top: 225px;
+	font-size: 16px;
+
+}
+/*hiking*/
+.hiking{
+	width: 100%;
+	min-height: 300px;
+}
+.h-content h1{
+	margin-top: 50px;
+	font-size: 45px;
+}
+.h-content h3{
+	margin-bottom: 20px;
+	font-size: 18px;
+	letter-spacing: 2px;
+
+}
+.h-content button{
+	margin-bottom: 10px;
+	font-size: 16px;
+	padding: 2px 10px;
+}
+.h-content p{
+	 font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 18px;
+
+}
+/*lets go start*/
+.lets-go{
+	padding: 40px 0 70px;
+	
+}
+.c-h1{
+	font-size: 32px;
+	letter-spacing: 2px;
+	
+}
+.c-h4{
+	font-size: 18px;
+}
+.singel img{
+	width: 100%;
+	min-height: 150px;
+}
+.singel-con{
+	width: 95%;
+	padding: 25px 0;
+}
+.c-h2{
+	font-size: 22px;
+	letter-spacing: 0;
+}
+.c-p{
+	font-size: 16px;
+	line-height: 15px;
+	letter-spacing: 0;
+}
+.go-btn{
+	font-size: 16px;
+	letter-spacing: 0;
+	min-height: 50px;
+	width: 40%;
+	margin-top: 30px;
+}
+/*discount start*/
+
+.discount img{
+	height: 450px;
+}
+
+.discount-con{
+	min-height: 400px;
+}
+.january-con{
+	min-height: 400px;
+}
+.all-exc{
+	width: 85%;
+	 padding: 70px 80px 0px;
+
+}
+.all-exc h1{
+	font-size: 35px;
+	
+}
+.all-exc p{
+	margin: 25px 0;
+	font-size: 20px;
+	letter-spacing: 0px;
+	line-height: 25px;
+}
+/*mountain start*/
+.mountain{
+	margin-top: 0px;
+	min-height: 400px;
+}
+.mountain h1{
+	margin-top: 100px;
+	font-size: 32px;
+}
+.mountain p{
+	font-size: 22px;
+	margin-top: 20px;
+	line-height: 20px;
+	letter-spacing: 0;
+}
+/*mountain start*/
+.mountain{
+	margin-top: 0px;
+	min-height: 350px;
+}
+.mountain h1{
+	margin-top: 100px;
+}
+/*explore start*/
+.explore{
+	margin-top: 0px;
+	min-height: 350px;
+}
+.explore h1{
+	margin-top: 100px;
+	margin-left: 65px;
+	font-size: 40px;
+}
+.explore h2{
+	font-size: 43px;
+}
+
+/*lorem ipsum*/
+.lorem-ipsum{
+	margin-bottom: 70px;
+}
+.lorem-ipsum h1{
+	font-size: 24px;
+}
+.lorem-ipsum p{
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	
+}
+.lorem-bottom h3{
+	margin: 0;
+	font-size: 18px;
+	line-height: 20px;
+}
+.lorem-bottom h2{
+	font-size: 40px;
+}
+.lorem-bottom p{
+	margin-bottom: 50px;
+}
+  /*contact start*/
+.contact-text{
+	padding:80px 0px;
+}
+.form{
+	width: 90%;
+
+}
+.sub-custom{
+	margin-top: 10px;
+	right:55px;
+	width: 80%;
+	padding: 12px 35px;
+}
+.contact-text h1{
+	font-size: 32px;
+}
+.contact-text p{
+	margin:20px 0;
+	font-size: 20px;
+	line-height: 25px;
+}
+footer h4{
+	text-align: center;
+		margin-bottom: 40px;
+	font-size: 30px;
+}
+.footer-i{
+	margin-left: 170px;
+    margin-bottom: 40px;
+}
+footer{
+	padding:70px 0 50px;
+}
+
+footer p{
+	text-align: center;
+}
+  }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+ /*header*/
+	.menu a{
+		float: right;
+		margin: 0;
+		font-size: 18px;
+		letter-spacing: 0;
+	}
+	.menu form{
+		width:30%;
+		float: right;
+	}
+	.search-icon{
+	right: 20px;
+	top: 235px;
+	font-size: 20px;
+
+}
+
+/*hiking*/
+.hiking{
+	width: 100%;
+	min-height: 450px;
+}
+.h-content h1{
+	margin-top: 100px;
+	font-size: 52px;
+}
+.h-content h3{
+	margin-bottom: 25px;
+	font-size: 20px;
+	letter-spacing: 2px;
+
+}
+.h-content button{
+	margin-bottom: 10px;
+	font-size: 20px;
+	padding: 2px 10px;
+}
+.h-content p{
+	 font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 20px;
+
+}
+/*lets go start*/
+.lets-go{
+	padding: 40px 0 70px;
+	
+}
+.singel img{
+	width: 100%;
+	min-height: 200px;
+}
+.singel-con{
+	width: 85%;
+	padding: 25px 0;
+}
+.c-h1{
+	font-size: 42px;
+}
+.c-p{
+	font-size: 18px;
+	letter-spacing: 0;
+}
+.go-btn{
+	font-size: 18px;
+	letter-spacing: 2px;
+	width: 40%;
+	min-height: 50px;
+	margin-top: 30px;
+}
+
+/*discount start*/
+
+.discount img{
+	height: 450px;
+}
+
+.discount-con{
+	min-height: 450px;
+}
+.january-con{
+	min-height: 450px;
+}
+.all-exc{
+	width: 95%;
+	 padding: 70px 20px 0px;
+
+}
+.all-exc h1{
+	font-size: 35px;
+	
+}
+.all-exc p{
+	margin: 25px 0;
+	font-size: 20px;
+	letter-spacing: 0px;
+	line-height: 25px;
+}
+/*mountain start*/
+.mountain{
+	margin-top: 0px;
+	min-height: 500px;
+}
+.mountain h1{
+	margin-top: 120px;
+}
+/*explore start*/
+.explore{
+	margin-top: 0px;
+	min-height: 500px;
+}
+.explore h1{
+	margin-top: 170px;
+	margin-left: 75px;
+	font-size: 45px;
+}
+.explore h2{
+	font-size: 48px;
+}
+/*lorem ipsum*/
+.lorem-ipsum{
+	margin-bottom: 120px;
+}
+.lorem-ipsum h1{
+	font-size: 30px;
+}
+.lorem-ipsum p{
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 20px;
+	
+}
+.lorem-bottom h3{
+	margin: 0;
+	font-size: 20px;
+	line-height: 22px;
+}
+.lorem-bottom h2{
+	font-size: 60px;
+}
+  /*contact start*/
+.contact-text{
+	padding:70px 0px;
+}
+.sub-custom{
+	right: 170px;
+	width: 20%;
+	padding: 12px 35px;
+}
+footer{
+	padding:100px 0 80px;
+}
+footer i{
+	padding: 5px
+}
+
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*header*/
+
+.logo{
+	margin-right: 180px;
+}
+.menu a{
+	margin-right: 25px;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.search-icon{
+	right: 45px;
+	top: 50px;
+}
+/*hiking*/
+.hiking{
+	width: 100%;
+	min-height: 600px;
+}
+.h-content h1{
+	margin-top: 150px;
+	font-size: 60px;
+}
+.h-content h3{
+	margin-bottom: 35px;
+	letter-spacing: 4px;
+
+}
+/*lets go start*/
+.lets-go{
+	padding: 60px 0 100px;
+	
+}
+/*discount start*/
+
+.discount img{
+	height: 600px;
+}
+
+.discount-con{
+	min-height: 600px;
+}
+.january-con{
+	min-height: 600px;
+}
+.all-exc{
+	width: 90%;
+	 padding: 120px 45px 0px;
+
+}
+/*mountain start*/
+.mountain{
+	margin-top: 20px;
+	min-height: 600px;
+}
+.mountain h1{
+	margin-top: 180px;
+}
+/*explore start*/
+.explore{
+	margin-top: 0px;
+	min-height: 600px;
+}
+.explore h1{
+	margin-top: 200px;
+	margin-left: 100px;
+	font-size: 60px;
+}
+.explore h2{
+	font-size: 65px;
+}
+/*lorem ipsum*/
+.lorem-ipsum{
+	margin-bottom: 170px;
+}
+  /*contact start*/
+.contact-text{
+	padding:100px 10px;
+}
+.sub-custom{
+	right: 250px;
+	width: 15%;
+	padding: 12px 35px;
+}
+    }
+
+ /* Extra Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+		/*header*/
+.logo{
+	margin-right: 280px;
+}
+.menu a{
+	margin-right: 30px;
+	
+}
+.search-icon{
+	right: 45px;
+}
+/*hiking*/
+.hiking{
+	width: 100%;
+	min-height: 700px;
+}
+.h-content h1{
+	margin-top: 200px;
+	font-size: 75px;
+}
+/*lets go start*/
+.lets-go{
+	padding: 80px 0 120px;
+	
+}
+/*discount start*/
+
+.discount img{
+	height: 650px;
+}
+
+.discount-con{
+	min-height: 650px;
+}
+.january-con{
+	min-height: 650px;
+}
+.all-exc{
+	width: 80%;
+	 padding: 180px 45px 0px;
+
+}
+/*mountain start*/
+.mountain{
+	margin-top: 20px;
+	min-height: 700px;
+}
+/*explore start*/
+.explore{
+	margin-top: 0px;
+	min-height: 700px;
+}
+.explore h1{
+	margin-top: 270px;
+}
+/*lorem ipsum*/
+.lorem-ipsum{
+	margin-bottom: 180px;
+}
+/*contact start*/
+.contact-text{
+	padding:120px 30px;
+}
+.sub-custom{
+	right: 350px;
+	width: 12%;
+	padding: 12px 35px;
+}
+   }
+
+ /*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+   }

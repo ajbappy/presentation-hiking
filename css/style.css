@@ -1,0 +1,450 @@
+@font-face{
+	src:url(../fonts/montserrat/Montserrat-Regular.ttf);
+	font-family: Montserrat-Regular;
+}
+@font-face{
+	src:url(../fonts/opensans/OpenSans-Bold.ttf);
+	font-family: OpenSans-Bold;
+}
+@font-face{
+	src:url(../fonts/opensans/OpenSans-ExtraBold.ttf);
+	font-family: OpenSans-ExtraBold;
+}
+@font-face{
+	src:url(../fonts/opensans/OpenSans-ExtraBoldItalic.ttf);
+	font-family: OpenSans-ExtraBoldItalic;
+}
+@font-face{
+	src:url(../fonts/opensans/OpenSans-Italic.ttf);
+	font-family: OpenSans-OpenSans-Italic;
+}
+@font-face{
+	src:url(../fonts/opensans/OpenSans-Regular.ttf);
+	font-family: OpenSans-Regular;
+}
+@font-face{
+	src:url(../fonts/opensans/OpenSans-SemiBold.ttf);
+	font-family: OpenSans-SemiBold;
+}
+body{
+	font-family: OpenSans-Bold;
+	font-size: 14pt;
+	color: #dbdbdb;
+}
+/*header start*/
+.head{
+	margin: 30px 0 10px;
+}
+.logo{
+	margin-right: 400px;
+}
+.menu{
+	margin-right: 10px!importent;
+}
+.menu a{
+	margin-right: 45px;
+	font-size: 20px;
+	color: #54524f;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.menu a:hover{
+	color:  #deb37e;
+}
+.menu li:last-child a{
+	margin-right: 0;
+}
+.search-button{
+	position: relative;
+	padding: 10px 0;
+	border-radius: 25px;
+	background-color: #c3bfbc;
+}
+.search-button:focus{
+	outline: 0;
+	box-shadow: none;
+}
+.search-icon{
+	position: absolute;
+	right: 60px;
+	top: 50px;
+	color: #54524f;
+	font-size: 25px;
+
+}
+
+/*header end*/
+/*hiking start*/
+.hiking{
+
+	background-image: url(..//img/bg1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	min-height: 900px;
+}
+.h-content{}
+
+.h-content h1{
+	margin-top: 300px;
+	font-family: OpenSans-ExtraBold;
+	font-weight: 800;
+	font-size: 80px;
+	color: #deb37e;
+}
+.h-content h3{
+	margin-bottom: 45px;
+	font-family: OpenSans-Regular;
+	font-weight: 400;
+	font-size: 22px;
+	color: #54524f;
+	letter-spacing: 4px;
+
+}
+.h-content button{
+	margin-bottom: 18px;
+	font-family:OpenSans-ExtraBold;
+	font-weight: 800;
+	font-size: 22px;
+	color: #776c64;
+	border: 1px solid white;
+	border-radius: 15px;
+	background-color: white;
+	padding: 5px 20px;
+}
+.h-content button:hover{
+	background-color: black;
+	color:  #deb37e;
+}
+.h-content p{
+	font-family: OpenSans-OpenSans-Italic;
+	 font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 25px;
+	color: #54524f;
+}
+/*hiking start*/
+/*lets go start*/
+.lets-go{
+	padding: 100px 0 150px;
+	background-image: url(..//img/shadow.png);
+	background-repeat: no-repeat;
+	background-size: initial;
+	background-position:bottom left;
+	
+}
+.c-h1{
+    font-family: OpenSans-Regular;
+	font-weight: 400;
+	font-size: 52px;
+	color: #e2a355;
+	letter-spacing: 4px;
+	
+}
+.c-h4{
+	font-family: OpenSans;
+	font-size: 22px;
+	color: #7f7770;
+
+}
+.singel{
+	margin-top: 50px;
+	margin-right: 5%;
+	float: left;
+	background-color: #7f7770;
+	width: 30%;
+}
+.singel:last-child{
+	margin-right: 0;
+}
+.singel img{
+	width: 100%;
+	min-height: 300px;
+}
+.singel-con{
+	width: 85%;
+	padding: 40px 0;
+}
+.c-h2{
+	font-family: OpenSans-bold;
+	font-weight: 700;
+	font-size: 25px;
+	color: white;
+	letter-spacing: 1px;
+}
+.c-p{
+	font-family: OpenSans;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 1px;
+}
+.go-btn{
+
+	font-family: OpenSans-ExtraBold;
+	font-weight: 800;
+	font-size: 22px;
+	color: white;
+	letter-spacing: 2px;
+	width: 20%;
+	min-height: 50px;
+	background-color:#7f7770;
+	border: none;
+	border-radius: 50px; 
+	margin-top: 30px;
+}
+.go-btn:hover{
+	background-color: black;
+	color:  #deb37e;
+}
+/*lets go end*/
+/*discount start*/
+.discount{
+	width: 100%;
+	
+}
+.discount img{
+	width: 100%;
+	height: 700px;
+}
+
+.discount-con{
+	background-color: #7f7770;
+	min-height: 700px;
+}
+.all-exc{
+	width: 85%;
+	 padding: 180px 123px 0;
+
+}
+.all-exc h1{
+	font-family: OpenSans-bold;
+	font-weight: 700;
+	font-size: 42px;
+	color: white;
+}
+.all-exc p{
+	margin: 35px 0;
+	font-family: OpenSans;
+	font-size: 22px;
+	color: white;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+.btn-default{
+	width: 50%;
+	height: 50px;
+	font-family: OpenSans-bold;
+	font-weight: 700;
+	font-size: 18px;
+	border-radius: 30px;
+	background-color: #e2a355;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.btn-default:hover{
+	background-color: white;
+	color:  #deb37e;
+}
+.january-con{
+	background-color: #deb37e;
+	min-height: 700px;
+}
+/*discount end*/
+/*mountain start*/
+.mountain{
+	margin-top: 50px;
+	background-image: url(..//img/bg2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	min-height: 800px;
+}
+.mountain h1{
+
+	font-family: OpenSans-SemiBold;
+	font-weight: 600;
+	font-size: 42px;
+	color: white;
+	margin-top: 250px;
+}
+.mountain p{
+	font-family: OpenSans;
+	font-size: 25px;
+	margin-top: 20px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+/*mountain start*/
+/*explore start*/
+.explore{
+	margin-top: 50px;
+	margin-bottom: 150px;
+	background-image: url(..//img/bg3.3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	min-height: 900px;
+}
+.explore h1{
+	margin-top: 350px;
+	margin-left: 150px;
+	font-family: OpenSans-ExtraBoldItalic;
+	font-weight: 800;
+	font-size: 70px;
+	color: #deb37e;
+}
+.explore h2{
+	font-family: OpenSans-ExtraBoldItalic;
+	font-weight: 800;
+	font-size: 80px;
+	color: #54524f;
+}
+
+/*explore start*/
+/*lorem start*/
+.lorem{
+	background-image: url(..//img/shadow2.png);
+	background-repeat: no-repeat;
+	background-size: initial;
+	background-position: bottom right;
+}
+.lorem-ipsum{
+	margin-bottom: 250px;
+	margin-right: 5%;
+	width: 30%;
+	float: left;
+}
+.lorem-ipsum:last-child{
+	margin-right: 0;
+}
+.lorem-ipsum h1{
+	font-family: OpenSans-bold;
+	font-weight: 700;
+	font-size: 35px;
+	color: #deb37e;
+}
+.lorem-ipsum p{
+	margin-top: 20px;
+    font-family: OpenSans;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	color: #333d42;
+}
+.lorem-bottom{}
+.lorem-bottom h2{
+	font-family: OpenSans-bold;
+	font-weight: 700;
+	font-size: 80px;
+	color: #3f3f3f;
+}
+.lorem-bottom h3{
+	margin: 0;
+	font-family: OpenSans-SemiBold;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 25px;
+	color: #333d42;
+}
+.lorem-bottom p{
+
+	margin-top: 30px;
+	margin-bottom: 100px;
+	font-family: OpenSans-Bold;
+	font-weight: 700;
+	font-size: 20px;
+	color: #333d42;
+}
+
+
+
+/*lorem end*/
+/*contact start*/
+.contact{
+	background-color: #deb37e;
+}
+.contact-text{
+	padding:150px 0 100px;
+}
+.contact-text h1{
+	font-family: OpenSans-Bold;
+	font-weight: 700;
+	font-size: 42px;
+	color: white;
+}
+.contact-text p{
+	margin:50px 0;
+	font-family: OpenSans;
+	font-size: 26px;
+	color: #54524f;
+	line-height: 28px;
+}
+.form{
+	width: 70%;
+
+}
+.form-custom{	
+	position: relative;
+	border-radius: 35px;
+	border: none;
+	width: 100%;
+	padding: 10px 30px;
+}
+.form-custom:focus{
+	outline: 0;
+	box-shadow: none;
+}
+
+.sub-custom{
+	position: absolute;
+	right: 400px;
+	border-radius: 35px;
+	border: none;
+	width: 10%;
+	padding: 12px 35px;
+	background-color: #54524f;
+	color: white;
+	text-transform: uppercase;
+}
+/*contact end*/
+footer{
+	background-color: #7f7770;
+	padding: 150px 0 100px;
+}
+footer h4{
+	margin-bottom: 30px;
+	font-family: Montserrat-Regular;
+	font-weight: 400;
+	font-size: 25px;
+}
+footer p{
+	font-family: Montserrat-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+}
+footer p a{
+	text-decoration:  none;
+	font-family: Montserrat-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+}
+footer i{
+	margin: 10px 5px;
+	padding: 10px;
+	color: black;
+	background-color: white;
+	border-radius: 50%;
+}
+
+footer i:hover{
+	color: #deb37e;
+}
+footer p a:hover{
+	color: #deb37e;
+}
